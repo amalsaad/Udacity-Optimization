@@ -520,5 +520,5 @@ document.addEventListener('DOMContentLoaded', function () {
         elem.style.left = elem.basicLeft + 'px'; // add this column vice of update position function
 
     }
-    // updatePositions();
+     updatePositions();
 });

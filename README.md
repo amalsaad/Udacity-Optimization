@@ -53,3 +53,41 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+
+#project structure:
+
+#css/print.css 
+#img folder
+#js/perfmatters.js
+#views folder 
+##pizza.html
+##js/main.js
+##images folder
+##css folder
+#index.html
+#project-2048.html
+#project-mobile.html
+#project-webperf.html
+#README.md
+
+
+#Optimaization:
+
+##index.html
+* include styles.css in html page.
+* add media print to print.css stylsheet.
+* remove google font link.
+
+##img/pizzeria.jpg
+resize img.
+
+##img folder
+* compress the images.
+
+##views/main.js
+* calculating the number of scrolling pizzas needed dynamically.
+* Generates the sliding pizzas when the page loads.
+
+##views/images folder
+* compress the images.
